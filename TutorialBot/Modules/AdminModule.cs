@@ -34,7 +34,7 @@ namespace TutorialBot.Modules
         [Command("shutdown")]
         [Name("Shutdown")]
         [Summary("Shuts down the bot")]
-        [RequireOwner] // makes it so that the command must be invoked by the owner of the bot (not the server)
+        [RequireOwner] // makes it so that the command must be invoked by the owner of the bot (not the owner of the server)
         public async Task Shutdown() {
             Environment.Exit(0); // Quits the program
         }

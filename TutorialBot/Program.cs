@@ -20,6 +20,10 @@ namespace TutorialBot
         /// easier portability of features, as well as an easier way to make commands with aliases, permissions, etc.
         /// The main and startup methods are the hardest parts of the entire bot, but lickily you can just copy-paste most of it.
         /// 
+        /// When you are re-making this class for your bot, you can just copy-paste the entire class
+        /// from this example and just change the prefix and token variables. Those variables are going to be the only customization
+        /// you need to do.
+        /// 
         /// VisualStudio's autocomplete will make your life so much easier.
         /// </summary>
 
