@@ -19,8 +19,11 @@ namespace TutorialBot
         /// The most common practice is to split the mot into multiple classes, or "Modules," which allow for
         /// easier portability of features, as well as an easier way to make commands with aliases, permissions, etc.
         /// The main and startup methods are the hardest parts of the entire bot, but lickily you can just copy-paste most of it.
+        /// 
+        /// VisualStudio's autocomplete will make your life so much easier.
         /// </summary>
 
+        // Unlike module classes, the Program class will only have one instance like most other programs in C#.
         private const string token = ""; // Your bot token, keep this private!
         private const string prefix = "!"; // The prefix for the commands
 
