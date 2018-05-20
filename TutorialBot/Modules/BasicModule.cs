@@ -27,7 +27,7 @@ namespace TutorialBot.Modules // Namespace MUST be <namespace>.Modules
         [Name("Echo")]
         [Summary("Echoes the parameter text back to the user")]
         public async Task Echo(params string[] words) {
-            // anythong after the command will be passed as a parameter, each thing will be seperated by a space. 
+            // anything after the command will be passed as a parameter, each thing will be seperated by a space. 
             // In order to take in an unknown number of words to the command, use the params keyword. The variable words in this case will contain all text after the command name.
 
             string s = "";
